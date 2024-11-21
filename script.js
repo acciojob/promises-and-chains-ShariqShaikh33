@@ -22,9 +22,9 @@ btn.addEventListener('click', () => {
 				reject("Rejected");
 			}
 		}).then(resolve = () => {
-			alert("Welcome, "+nameValue+". You can vote.");
+			setTimeout(function() {alert("Welcome, "+nameValue+". You can vote.");},4000);
 		}).catch(reject = () => {
-			alert("Oh sorry "+nameValue+". You aren't old enough");
+			setTimeout(function() {alert("Oh sorry "+nameValue+". You aren't old enough");},4000);
 		});
 	}
 
