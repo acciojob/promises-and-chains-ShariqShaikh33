@@ -11,7 +11,7 @@ btn.addEventListener('click', () => {
 	let nameValue = name.value;
 
 	if(!ageValue || !nameValue){
-		alert("inputs cannot be empty");
+		alert("Please enter valid details");
 	}
 	else{
 		let agepromise = new Promise(function(resolve, reject){
